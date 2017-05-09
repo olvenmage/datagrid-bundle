@@ -70,7 +70,7 @@ class Datagrid
                 foreach ($annotationDatagrid->dependencies as $dep) {
                     if (strstr($dep, '@')) {
                         $deps[] = $this->container->get(str_replace('@', '', $dep));
-                    } else if(strstr('%', '', $dep)) {
+                    } else if(strstr($dep, '%')) {
                         $deps[] = $this->container->getParameter(str_replace('%', '', $dep));
                     }
                 }
