@@ -8,9 +8,15 @@
         }
     ],
     "require": {
-        "abbert/datagrid": "^1.0.0"
+        "abbert/datagrid": "^1.1.2"
     },
     "autoload": {
         "psr-4": { "Abbert\\DatagridBundle\\": "" }
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/olvenmage/datagrid.git"
+        }
+    ]
 }
