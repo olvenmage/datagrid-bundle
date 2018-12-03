@@ -8,7 +8,7 @@
         }
     ],
     "require": {
-        "abbert/datagrid": "^1.1.2"
+        "abbert/datagrid": "^1.06"
     },
     "autoload": {
         "psr-4": { "Abbert\\DatagridBundle\\": "" }
